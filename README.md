@@ -1,4 +1,4 @@
-#Heart Disease Analysis and Prediction
+# Heart Disease Analysis and Prediction
 
 ### 📖 Overview
 End to end Machine Learning workflow to predict heart disease using **Random Forest Classifier**, **GUI deployment** and model persistence.
@@ -11,20 +11,23 @@ This data set dates from 1988 and consists of four databases: Cleveland, Hungary
 The primary objective of this project is to develop a reliable machine learning model that accurately **predicts the likelihood of heart disease based on patient health attributes**. By leveraging clinical data and advanced classification techniques, this model aims to support early detection and assist healthcare professionals in proactive decision-making.
 Additionally, the project focuses on enhancing usability through a **graphical user interface** and ensuring reusability by saving the trained model for real-world deployment.
 
-### Variables used:
-1.age
-2.sex
-3.chest pain type (4 values)
-4.resting blood pressure
-5.serum cholestoral in mg/dl
-6.fasting blood sugar > 120 mg/dl
-7.resting electrocardiographic results (values 0,1,2)
-8.maximum heart rate achieved
-9.exercise induced angina
-10.oldpeak = ST depression induced by exercise relative to rest
-11.the slope of the peak exercise ST segment
-12.number of major vessels (0-3) colored by flourosopy
-13.thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
+### 📂 Dataset
+- **Source:** Heart disease dataset (`heart_data.csv`)  
+- **Features used:**
+  - `age`
+  - `sex`
+  - `chest pain type (4 values)`
+  - `resting blood pressure`
+  - `serum cholestoral in mg/dl`
+  - `fasting blood sugar > 120 mg/dl`
+  - `resting electrocardiographic results (values 0,1,2)`
+  - `maximum heart rate achieved`
+  - `exercise induced angina`
+  - `oldpeak = ST depression induced by exercise relative to rest`
+  - `the slope of the peak exercise ST segment`
+  - `number of major vessels (0-3) colored by flourosopy`
+  - `thal: 0 = normal; 1 = fixed defect; 2 = reversable defect`
+  - `target: 0 = no heart disease; 1 =heart disease`
 The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
 
 ---------------------------------------------------------------
